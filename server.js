@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
     db.select('*').from('volume')
     .then(data => {
         res.json(data)
-    })
+    }) 
        
 })
 
